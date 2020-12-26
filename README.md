@@ -38,3 +38,5 @@ The following are purely done for aesthetic reasons, to make it look more like E
 
 ## Reviews
 "i call that stroke simulator 2000" - [Jaeden Soon](https://github.com/jsck413)
+"it's literally unrecognisable" - Favian Lim
+"I dont like the x's" - Drew Michael
