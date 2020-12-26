@@ -24,7 +24,9 @@ After phoneme-by-phoneme conversion, the following conversions are done:
 1. hb → b̆
 1. hk → k̆
 1. pŭ → φ
-  
+
+In addition, ː is changed to :, as that is done for /iː/ and /ɪː/ in Poliespo.  
+    
 The following are purely done for aesthetic reasons, to make it look more like Esperanto, which Poliespo is based off of, as well as to get rid of some vowel clusters:
 1. \[vowel\]\[i or ĭ\] → \[vowel\]j
 1. \[vowel\]u → \[vowel\]ŭ
