@@ -1,5 +1,5 @@
 # Poliespellinglish (Poliespⱥlĭngglĭŝ)
-Poliespellinglish is an alternative spelling of English based on Poliespo orthography. It looks terrible, which I consider to be a goal achieved. I've tried to make English orthographies based on several conlangs, such as Esperanto and Vötgil, but this is by far the worst one, so it is my priority.
+Poliespellinglish (Poliespo spelling of English) is an alternative spelling of English based on [Poliespo](https://en.wikipedia.org/wiki/Poliespo) orthography. It looks terrible, which I consider to be a goal achieved. I've tried to make English orthographies based on several conlangs, such as [Esperanto](https://en.wikipedia.org/wiki/Esperanto) and [Vötgil](https://www.youtube.com/watch?v=12bT6wGXESc), but this is by far the worst one, so it is my priority.
 
 ## Unicode-friendly
 The orthography of Poliespo is not very Unicode-friendly, especially the characters t-with-overlapping-v for /ð/ and p-with-overlapping-w for /pʷ/. Hence, I have decided to make them ψ and φ, because they look pretty similar to the originals, and are both Greek letters so many fonts will support them.
