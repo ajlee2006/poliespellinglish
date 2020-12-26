@@ -37,6 +37,6 @@ The following are purely done for aesthetic reasons, to make it look more like E
 Ψx Nw:t̂ Ŭĭnd ⱥnd ψx Sqn ŭq: dĭspju:tĭng ŭĭĉ ŭwz ψx strwnggx, ŭⱥn x trⱥvlx kejm xlwng rⱥpt ĭn x ŭw:m klxŭk. Ψej xgri:d ψⱥt ψx ŭqn hu: fq:st sxksi:dĭd ĭn mejkĭng ψx trⱥvlx tejk hĭz klxŭk wf ŝud bi: kxnsĭdxd strwnggx ψⱥn ψi qψx. Ψⱥn ψx Nw:t̂ Ŭĭnd blu: ⱥz ha:d ⱥz hi: kud, bqt ψx mw: hi: blu: ψx mw: klxŭsli dĭd ψx trⱥvlx fxŭld hĭz klxŭk xraŭnd hĭm; ⱥnd ⱥt la:st ψx Nw:t̂ Ŭĭnd gejv qp ψi xtⱥmpt. Ψⱥn ψx Sqn ŝajnd aŭt ŭw:mli, ⱥnd ĭmi:dixtli ψx trⱥvlx tuk wf hĭz klxŭk. Ⱥnd sxŭ ψx Nw:t̂ Ŭĭnd ŭwz xblajĝd tu: kxnfⱥs ψⱥt ψx Sqn ŭwz ψx strwnggxr wv ψx tu:.
 
 ## Reviews
-"i call that stroke simulator 2000" - [Jaeden Soon](https://github.com/jsck413)
-"it's literally unrecognisable" - Favian Lim
-"I dont like the x's" - Drew Michael
+"i call that stroke simulator 2000" - [Jaeden Soon](https://github.com/jsck413)  
+"it's literally unrecognisable" - Favian Lim  
+"I dont like the x's" - Drew Michael  
