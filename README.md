@@ -1,4 +1,4 @@
-# Poliespellinglish
+# Poliespellinglish (Poliespⱥlĭngglĭŝ)
 Poliespellinglish is an alternative spelling of English based on Poliespo orthography. It looks terrible, which I consider to be a goal achieved. I've tried to make English orthographies based on several conlangs, such as Esperanto and Vötgil, but this is by far the worst one, so it is my priority.
 
 ## Unicode-friendly
