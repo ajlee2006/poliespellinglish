@@ -62,6 +62,7 @@ def ipa2pol(pron):
     fs = fs.replace('wu','wŭ')
     fs = fs.replace('qu','qŭ')
     fs = fs.replace('xu','xŭ')
+    fs = fs.replace(':u',':ŭ')
     return fs
 
 # Stuff to make the IPA capitalised
