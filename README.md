@@ -23,7 +23,7 @@ After phoneme-by-phoneme conversion, the following conversions are done:
 1. hn → n̆
 1. hb → b̆
 1. hk → k̆
-1. pŭ → φ
+1. pŭ → φ 
 
 In addition, ː is changed to :, as that is done for /iː/ and /ɪː/ in Poliespo.  
     
