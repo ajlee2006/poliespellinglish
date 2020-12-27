@@ -9,7 +9,7 @@ The orthography of Poliespo is not very Unicode-friendly, especially the charact
 ![ψ and φ look like t+v and p+w](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20demonstrating%20psi-phi-updated.png)
 
 ## Consonants
-All the English consonants are in Poliespo, except /ŋ/ which I have converted to ng, so that is pretty simple to transfer over. Glottal stops are ignored.  
+All the English consonants are in Poliespo, except /ŋ/ which I have converted to ng because that [appears to sort of work in Esperanto](https://en.wikipedia.org/wiki/Esperanto_orthography#Sound_values), so that is pretty simple to transfer over. Glottal stops are ignored.  
   
 ![Consonant table](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20consonants-updated.png)
 
