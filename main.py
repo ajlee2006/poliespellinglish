@@ -26,6 +26,7 @@ def ipa2pol(pron):
     fs = fs.replace('hn','n̆')
     fs = fs.replace('hb','b̆')
     fs = fs.replace('hk','k̆')
+    fs = fs.replace('pŭ','φ')
     fs = fs.replace('ai','aj')
     fs = fs.replace('ei','ej')
     fs = fs.replace('oi','oj')
@@ -34,6 +35,8 @@ def ipa2pol(pron):
     fs = fs.replace('wi','wj')
     fs = fs.replace('qi','qj')
     fs = fs.replace('xi','xj')
+    fs = fs.replace(':i',':j')
+    fs = fs.replace('ĭi','ĭj')
     fs = fs.replace('aĭ','aj')
     fs = fs.replace('eĭ','ej')
     fs = fs.replace('oĭ','oj')
@@ -42,6 +45,8 @@ def ipa2pol(pron):
     fs = fs.replace('wĭ','wj')
     fs = fs.replace('qĭ','qj')
     fs = fs.replace('xĭ','xj')
+    fs = fs.replace(':ĭ',':j')
+    fs = fs.replace('iĭ','ij')
     fs = fs.replace('au','aŭ')
     fs = fs.replace('eu','eŭ')
     fs = fs.replace('iu','iŭ')
@@ -51,7 +56,6 @@ def ipa2pol(pron):
     fs = fs.replace('wu','wŭ')
     fs = fs.replace('qu','qŭ')
     fs = fs.replace('xu','xŭ')
-    fs = fs.replace('pŭ','φ')
     return fs
 
 # Stuff to make the IPA capitalised
