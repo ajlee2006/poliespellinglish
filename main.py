@@ -1,4 +1,5 @@
 #import eng_to_ipa as ipa
+import requests
 
 # ENGLISH TO POLIESPELLINGLISH
 # Usage: poliespellinglishstring = eng2pol("Put an English sentence here")
