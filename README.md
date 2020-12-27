@@ -4,7 +4,7 @@ Poliespellinglish (Poliespo spelling of English) is an alternative spelling of E
 ## Unicode-friendly
 The orthography of Poliespo is not very Unicode-friendly, especially the characters t-with-overlapping-v for /ð/ and p-with-overlapping-w for /pʷ/. Hence, I have decided to make them ψ and φ, because they look pretty similar to the originals, and are both Greek letters so many fonts will support them.  
   
-![ψ and φ look like t+v and p+w](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20demonstrating%20psi-phi.png)
+![ψ and φ look like t+v and p+w](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20demonstrating%20psi-phi-updated.png)
 
 ## Consonants
 All the English consonants are in Poliespo, except /ŋ/ which I have converted to ng, so that is pretty simple to transfer over.  
