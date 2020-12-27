@@ -34,9 +34,15 @@ The following are purely done for aesthetic reasons, to make it look more like E
 1. \[vowel\]u → \[vowel\]ŭ
 
 ## Sample texts
-### The North Wind and the Sun
 (IPA was obtained from [tophonetics.com](https://www.tophonetics.com/) British English)  
+### The North Wind and the Sun
 Ψx Nw:t̂ Ŭĭnd ⱥnd ψx Sqn ŭq: dĭspju:tĭng ŭĭĉ ŭwz ψx strwnggx, ŭⱥn x trⱥvlx kejm xlwng rⱥpt ĭn x ŭw:m klxŭk. Ψej xgri:d ψⱥt ψx ŭqn hu: fq:st sxksi:dĭd ĭn mejkĭng ψx trⱥvlx tejk hĭz klxŭk wf ŝud bi: kxnsĭdxd strwnggx ψⱥn ψi qψx. Ψⱥn ψx Nw:t̂ Ŭĭnd blu: ⱥz ha:d ⱥz hi: kud, bqt ψx mw: hi: blu: ψx mw: klxŭsli dĭd ψx trⱥvlx fxŭld hĭz klxŭk xraŭnd hĭm; ⱥnd ⱥt la:st ψx Nw:t̂ Ŭĭnd gejv qp ψi xtⱥmpt. Ψⱥn ψx Sqn ŝajnd aŭt ŭw:mli, ⱥnd ĭmi:dixtli ψx trⱥvlx tuk wf hĭz klxŭk. Ⱥnd sxŭ ψx Nw:t̂ Ŭĭnd ŭwz xblajĝd tu: kxnfⱥs ψⱥt ψx Sqn ŭwz ψx strwnggxr wv ψx tu:.
+
+### UDHR
+W:l hju:mxn bi:jngz a: bw:n fri: ⱥnd i:kŭxl ĭn dĭgnĭti ⱥnd rajc. Ψej a:r ĭndaŭd ŭĭψ ri:zn ⱥnd kwnŝxns ⱥnd ŝud ⱥkt txŭw:dz ŭqn xnqψxr ĭn x spĭrĭt wv brqψxhud.  
+
+### The Lord's Prayer
+Aŭx Fa:ψx, ŭĭĉ a:t ĭn hⱥvn, hⱥlxŭd bi: ψaj Nejm; Ψaj kĭngdxm kqm; Ψaj ŭĭl bi: dqn ĭn q:t̂, ⱥz ĭt ĭz ĭn hⱥvn: gĭv qs ψĭs dej aŭx dejli brⱥd; ⱥnd fxgĭv qs aŭx trⱥspxsĭz, ⱥz ŭi: fxgĭv ψⱥm ψⱥt trⱥspxs xgⱥnst qs; ⱥnd li:d qs nwt ĭntu: tⱥmptejŝxn, bqt dĭlĭvxr qs frwm i:vl; fw: ψajn ĭz ψx kĭngdxm, ⱥnd ψx paŭx, ⱥnd ψx glw:ri, fw:r ⱥvxr ⱥnd ⱥvx. A:mⱥn.  
 
 ## Reviews
 "i call that stroke simulator 2000" - [Jaeden Soon](https://github.com/jsck413)  
