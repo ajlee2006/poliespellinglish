@@ -2,15 +2,19 @@ import eng_to_ipa as ipa
 
 # ENGLISH TO POLIESPELLINGLISH
 # Usage: poliespellinglishstring = eng2pol("Put an English sentence here")
+# It will use the Python eng_to_ipa module to convert English text to IPA.
+# Alternatively, you can use a separate tool to get the IPA and use the functions below.
 def eng2pol(s):
     pron = ipa.convert(s)
     fs = ipa2pol(pron)
     return transfercase(s,fs)
 
 # IPA TO POLIESPELLINGLISH (doesn't have all IPA characters, only those in English)
+# You can use this function and transfercase if you have a custom IPA string.
+# Usage: poliespellinglishstring = transfercase("Put an English sentence here",ipa2pol("pʊt ən ˈɪŋglɪʃ ˈsɛntəns hɪə"))
 def ipa2pol(pron):
-    ipalist = ['m', 'n', 'ŋ', 'p', 'b', 't', 'd', 'k', 'ɡ', 'f', 'v', 'θ', 'ð', 's', 'z', 'ʃ', 'ʒ', 'x', 'h', 'l', 'r', 'j', 'w', 'a', 'æ', 'ɑ', 'ɒ', 'ɔ', 'i', 'ɪ', 'e', 'ɛ', 'ɜ', 'ə', 'o', 'u', 'ʌ', 'ʊ', 'ʤ', 'ʧ', 'ˌ', 'ˈ', '*', 'ː']
-    pollist = ['m', 'n', 'ng', 'p', 'b', 't', 'd', 'k', 'ɡ', 'f', 'v', 't̂', 'ψ', 's', 'z', 'ŝ', 'ĵ', 'ĥ', 'h', 'l', 'r', 'j', 'ŭ', 'a', 'ⱥ', 'a', 'w', 'w', 'i', 'ĭ', 'e', 'ⱥ', 'q', 'x', 'o', 'u', 'q', 'u', 'ĝ', 'ĉ', '', '', '', ':']
+    ipalist = ['m', 'n', 'ŋ', 'p', 'b', 't', 'd', 'k', 'ɡ', 'f', 'v', 'θ', 'ð', 's', 'z', 'ʃ', 'ʒ', 'x', 'h', 'l', 'r', 'j', 'w', 'a', 'æ', 'ɑ', 'ɒ', 'ɔ', 'i', 'ɪ', 'e', 'ɛ', 'ɜ', 'ə', 'o', 'u', 'ʌ', 'ʊ', 'ʤ', 'ʧ', 'ˌ', 'ˈ', '*', 'ː', 'ʔ']
+    pollist = ['m', 'n', 'ng', 'p', 'b', 't', 'd', 'k', 'ɡ', 'f', 'v', 't̂', 'ψ', 's', 'z', 'ŝ', 'ĵ', 'ĥ', 'h', 'l', 'r', 'j', 'ŭ', 'a', 'ⱥ', 'a', 'w', 'w', 'i', 'ĭ', 'e', 'ⱥ', 'q', 'x', 'o', 'u', 'q', 'u', 'ĝ', 'ĉ', '', '', '', ':', '']
     fs = ''
     for i in pron:
         if i in ipalist:
@@ -50,7 +54,7 @@ def ipa2pol(pron):
     fs = fs.replace('pŭ','φ')
     return fs
 
-# stuff to make the IPA capitalised
+# Stuff to make the IPA capitalised
 def transfercase(s,f):
     fl = f.split(' ')
     sl = s.split(' ')
