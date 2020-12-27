@@ -2,7 +2,9 @@
 Poliespellinglish (Poliespo spelling of English) is an alternative spelling of English based on [Poliespo](https://en.wikipedia.org/wiki/Poliespo) orthography. It looks terrible, which I consider to be a goal achieved. I've tried to make English orthographies based on several conlangs, such as [Esperanto](https://en.wikipedia.org/wiki/Esperanto) and [Vötgil](https://www.youtube.com/watch?v=12bT6wGXESc), but this is by far the worst one, so it is my priority.
 
 ## Unicode-friendly
-The orthography of Poliespo is not very Unicode-friendly, especially the characters t-with-overlapping-v for /ð/ and p-with-overlapping-w for /pʷ/. Hence, I have decided to make them ψ and φ, because they look pretty similar to the originals, and are both Greek letters so many fonts will support them.
+The orthography of Poliespo is not very Unicode-friendly, especially the characters t-with-overlapping-v for /ð/ and p-with-overlapping-w for /pʷ/. Hence, I have decided to make them ψ and φ, because they look pretty similar to the originals, and are both Greek letters so many fonts will support them.  
+  
+![ψ and φ look like t+v and p+w](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20demonstrating%20psi-phi.png)
 
 ## Consonants
 All the English consonants are in Poliespo, except /ŋ/ which I have converted to ng, so that is pretty simple to transfer over.  
