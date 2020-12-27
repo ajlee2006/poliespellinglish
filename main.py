@@ -5,14 +5,13 @@
 # It will use an API that uses tophonetics.com to convert English text to IPA.
 # Alternatively, you can use a separate tool to get the IPA and use the functions below.
 def eng2pol(s):
-    pron = ipa.convert(s)
-
     # Uses the Python eng_to_ipa module to convert English text to IPA.
-    #fs = ipa2pol(pron)
+    #pron = ipa.convert(s)
 
     # Uses an API that uses tophonetics.com to convert English text to IPA.
-    fs = requests.get("https://tophonetics-api.ajlee.repl.co/api", data={"text": "hello"}).text
+    pron = requests.get("https://tophonetics-api.ajlee.repl.co/api", data={"text": s}).text
 
+    fs = ipa2pol(pron)
     return transfercase(s,fs)
 
 # IPA TO POLIESPELLINGLISH (doesn't have all IPA characters, only those in English)
