@@ -7,12 +7,12 @@ The orthography of Poliespo is not very Unicode-friendly, especially the charact
 ## Consonants
 All the English consonants are in Poliespo, except /ŋ/ which I have converted to ng, so that is pretty simple to transfer over.  
   
-![Consonant table](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20consonants.png)
+![Consonant table](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20consonants-updated.png)
 
 ## Vowels
 For the vowels, I have snapped them to the nearest Poliespo one based on my discretion (which mainly involved listening to the vowel sounds and then picking arbitrarily).  
   
-![Vowel table](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20vowels.png)
+![Vowel table](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20vowels-updated.png)
 
 ## Miscellaneous changes
 After phoneme-by-phoneme conversion, the following conversions are done:  
