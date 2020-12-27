@@ -12,7 +12,7 @@ All the English consonants are in Poliespo, except /ŋ/ which I have converted t
 ## Vowels
 For the vowels, I have snapped them to the nearest Poliespo one based on my discretion (which mainly involved listening to the vowel sounds and then picking arbitrarily).  
   
-![Vowel table](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20vowels-updated.png)
+![Vowel table](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20vowels-updated2.png)
 
 ## Miscellaneous changes
 After phoneme-by-phoneme conversion, the following conversions are done:  
