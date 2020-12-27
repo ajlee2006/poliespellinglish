@@ -1,12 +1,18 @@
-import eng_to_ipa as ipa
+#import eng_to_ipa as ipa
 
 # ENGLISH TO POLIESPELLINGLISH
 # Usage: poliespellinglishstring = eng2pol("Put an English sentence here")
-# It will use the Python eng_to_ipa module to convert English text to IPA.
+# It will use an API that uses tophonetics.com to convert English text to IPA.
 # Alternatively, you can use a separate tool to get the IPA and use the functions below.
 def eng2pol(s):
     pron = ipa.convert(s)
-    fs = ipa2pol(pron)
+
+    # Uses the Python eng_to_ipa module to convert English text to IPA.
+    #fs = ipa2pol(pron)
+
+    # Uses an API that uses tophonetics.com to convert English text to IPA.
+    fs = requests.get("https://tophonetics-api.ajlee.repl.co/api", data={"text": "hello"}).text
+
     return transfercase(s,fs)
 
 # IPA TO POLIESPELLINGLISH (doesn't have all IPA characters, only those in English)
@@ -60,6 +66,8 @@ def ipa2pol(pron):
 
 # Stuff to make the IPA capitalised
 def transfercase(s,f):
+    s = s.replace('\u0007','').replace('\n','\u0007 ')
+    f = f.replace('\u0007','').replace('\n','\u0007 ')
     fl = f.split(' ')
     sl = s.split(' ')
     for i in range(len(sl)):
@@ -72,4 +80,13 @@ def transfercase(s,f):
                 fl[i] = fl[i].lower()
         except:
             pass
-    return ' '.join(fl)
+    return ' '.join(fl).replace('\u0007 ','\n')
+
+
+#'''
+while True:
+    print(eng2pol(input('English: > ')))
+    #print(ipa2pol(input('IPA: > ')))
+#'''
+
+#print(transfercase(input('English: > '),ipa2pol(input('IPA: > '))))
