@@ -84,10 +84,12 @@ def transfercase(s,f):
     return ' '.join(fl).replace('\u0007 ','\n')
 
 
+# Prompts you for English text, prints Poliespellinglish, then prompts you again.
 #'''
 while True:
     print(eng2pol(input('English: > ')))
     #print(ipa2pol(input('IPA: > ')))
 #'''
 
+# Prompts you for English text, then IPA, then prints Poliespellinglish.
 #print(transfercase(input('English: > '),ipa2pol(input('IPA: > '))))
