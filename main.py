@@ -6,6 +6,9 @@ import requests
 # It will use an API that uses tophonetics.com to convert English text to IPA.
 # Alternatively, you can use a separate tool to get the IPA and use the functions below.
 def eng2pol(s):
+
+    s = s.strip()
+
     # Uses the Python eng_to_ipa module to convert English text to IPA.
     #pron = ipa.convert(s)
 
@@ -19,8 +22,8 @@ def eng2pol(s):
 # You can use this function and transfercase if you have a custom IPA string.
 # Usage: poliespellinglishstring = transfercase("Put an English sentence here",ipa2pol("pʊt ən ˈɪŋglɪʃ ˈsɛntəns hɪə"))
 def ipa2pol(pron):
-    ipalist = ['m', 'n', 'ŋ', 'p', 'b', 't', 'd', 'k', 'ɡ', 'f', 'v', 'θ', 'ð', 's', 'z', 'ʃ', 'ʒ', 'x', 'h', 'l', 'r', 'j', 'w', 'a', 'æ', 'ɑ', 'ɒ', 'ɔ', 'i', 'ɪ', 'e', 'ɛ', 'ɜ', 'ə', 'o', 'u', 'ʌ', 'ʊ', 'ʤ', 'ʧ', 'ˌ', 'ˈ', '*', 'ː', 'ʔ']
-    pollist = ['m', 'n', 'ng', 'p', 'b', 't', 'd', 'k', 'ɡ', 'f', 'v', 't̂', 'ψ', 's', 'z', 'ŝ', 'ĵ', 'ĥ', 'h', 'l', 'r', 'j', 'ŭ', 'a', 'ⱥ', 'a', 'w', 'w', 'i', 'ĭ', 'e', 'ⱥ', 'q', 'x', 'o', 'u', 'q', 'u', 'ĝ', 'ĉ', '', '', '', ':', '']
+    ipalist = ['m', 'n', 'ŋ', 'p', 'b', 't', 'd', 'k', 'ɡ', 'f', 'v', 'θ', 'ð', 's', 'z', 'ʃ', 'ʒ', 'x', 'h', 'l', 'r', 'j', 'w', 'a', 'æ', 'ɑ', 'ɒ', 'ɔ', 'i', 'ɪ', 'e', 'ɛ', 'ɜ', 'ə', 'o', 'u', 'ʌ', 'ʊ', 'ʤ', 'ʧ', 'ˌ', 'ˈ', '*', 'ʔ']
+    pollist = ['m', 'n', 'ng', 'p', 'b', 't', 'd', 'k', 'ɡ', 'f', 'v', 't̂', 'ψ', 's', 'z', 'ŝ', 'ĵ', 'ĥ', 'h', 'l', 'r', 'j', 'ŭ', 'a', 'ⱥ', 'a', 'w', 'w', 'i', 'ĭ', 'e', 'ⱥ', 'q', 'x', 'o', 'u', 'q', 'u', 'ĝ', 'ĉ', '', '', '', '']
     fs = ''
     for i in pron:
         if i in ipalist:
@@ -41,7 +44,7 @@ def ipa2pol(pron):
     fs = fs.replace('wi','wj')
     fs = fs.replace('qi','qj')
     fs = fs.replace('xi','xj')
-    fs = fs.replace(':i',':j')
+    fs = fs.replace('ːi','ːj')
     fs = fs.replace('ĭi','ĭj')
     fs = fs.replace('aĭ','aj')
     fs = fs.replace('eĭ','ej')
@@ -51,7 +54,7 @@ def ipa2pol(pron):
     fs = fs.replace('wĭ','wj')
     fs = fs.replace('qĭ','qj')
     fs = fs.replace('xĭ','xj')
-    fs = fs.replace(':ĭ',':j')
+    fs = fs.replace('ːĭ','ːj')
     fs = fs.replace('iĭ','ij')
     fs = fs.replace('au','aŭ')
     fs = fs.replace('eu','eŭ')
@@ -62,7 +65,8 @@ def ipa2pol(pron):
     fs = fs.replace('wu','wŭ')
     fs = fs.replace('qu','qŭ')
     fs = fs.replace('xu','xŭ')
-    fs = fs.replace(':u',':ŭ')
+    fs = fs.replace('ːu','ːŭ')
+    fs = fs.replace('ː',':')
     return fs
 
 # Stuff to make the IPA capitalised
@@ -73,7 +77,9 @@ def transfercase(s,f):
     sl = s.split(' ')
     for i in range(len(sl)):
         try:
-            if sl[i] == sl[i].capitalize():
+            if sl[i].upper() == sl[i].lower():
+                pass
+            elif sl[i] == sl[i].capitalize():
                 fl[i] = fl[i].capitalize()
             elif sl[i].isupper():
                 fl[i] = fl[i].upper()
@@ -82,7 +88,6 @@ def transfercase(s,f):
         except:
             pass
     return ' '.join(fl).replace('\u0007 ','\n')
-
 
 # Prompts you for English text, prints Poliespellinglish, then prompts you again.
 #'''
