@@ -31,7 +31,7 @@ After phoneme-by-phoneme conversion, the following conversions are done:
 
 In addition, ː is changed to :, as that is done for /iː/ and /ɪː/ in Poliespo.  
     
-The following are purely done for aesthetic reasons, to make it look more like Esperanto, which Poliespo is based off of, as well as to get rid of some vowel clusters:
+The following are done to get rid of some vowel clusters:
 1. \[vowel\]\[i or ĭ\] → \[vowel\]j
 1. \[vowel\]u → \[vowel\]ŭ
 
