@@ -1,7 +1,7 @@
 # Poliespellinglish (Poliespⱥlĭngglĭŝ)
 Poliespellinglish (Poliespo spelling of English) is an alternative spelling of English based on [Poliespo](https://en.wikipedia.org/wiki/Poliespo) orthography. It looks terrible, which I consider to be a goal achieved. I've tried to make English orthographies based on several conlangs, such as [Esperanto](https://en.wikipedia.org/wiki/Esperanto) and [Vötgil](https://www.youtube.com/watch?v=12bT6wGXESc), but this is by far the worst one, so it is my priority.  
   
-A Python file (main.py) to convert between English and Poliespellinglish is attached.
+A Python file (main.py) to convert between English and Poliespellinglish is attached. It makes use of the [API](https://github.com/ajlee2006/tophonetics-api) for [tophonetics.com](https://www.tophonetics.com/) that I made. You can run the code at https://repl.it/@AJLee/poliespelling-of-english
 
 ## Unicode-friendly
 The orthography of Poliespo is not very Unicode-friendly, especially the characters t-with-overlapping-v for /ð/ and p-with-overlapping-w for /pʷ/. Hence, I have decided to make them ψ and φ, because they look pretty similar to the originals, and are both Greek letters so many fonts will support them.  
