@@ -1,5 +1,5 @@
 #import eng_to_ipa as ipa
-import requests
+import requests, re
 
 # ENGLISH TO POLIESPELLINGLISH
 # Usage: poliespellinglishstring = eng2pol("Put an English sentence here")
@@ -31,41 +31,12 @@ def ipa2pol(pron):
         else:
             fs += i
     fs = fs.replace('ts','c')
-    fs = fs.replace('hm','m̆')
-    fs = fs.replace('hn','n̆')
-    fs = fs.replace('hb','b̆')
-    fs = fs.replace('hk','k̆')
+    fs = re.sub('h([mnbk])', r'\1̆', fs)
     fs = fs.replace('pŭ','φ')
-    fs = fs.replace('ai','aj')
-    fs = fs.replace('ei','ej')
-    fs = fs.replace('oi','oj')
-    fs = fs.replace('ui','uj')
-    fs = fs.replace('ⱥi','ⱥj')
-    fs = fs.replace('wi','wj')
-    fs = fs.replace('qi','qj')
-    fs = fs.replace('xi','xj')
-    fs = fs.replace('ːi','ːj')
-    fs = fs.replace('ĭi','ĭj')
-    fs = fs.replace('aĭ','aj')
-    fs = fs.replace('eĭ','ej')
-    fs = fs.replace('oĭ','oj')
-    fs = fs.replace('uĭ','uj')
-    fs = fs.replace('ⱥĭ','ⱥj')
-    fs = fs.replace('wĭ','wj')
-    fs = fs.replace('qĭ','qj')
-    fs = fs.replace('xĭ','xj')
-    fs = fs.replace('ːĭ','ːj')
-    fs = fs.replace('iĭ','ij')
-    fs = fs.replace('au','aŭ')
-    fs = fs.replace('eu','eŭ')
-    fs = fs.replace('iu','iŭ')
-    fs = fs.replace('ou','oŭ')
-    fs = fs.replace('ⱥu','ⱥŭ')
-    fs = fs.replace('ĭu','ĭŭ')
-    fs = fs.replace('wu','wŭ')
-    fs = fs.replace('qu','qŭ')
-    fs = fs.replace('xu','xŭ')
-    fs = fs.replace('ːu','ːŭ')
+    fs = re.sub('([aeiouⱥĭwqxː])[iĭ]', r'\1j', fs)
+    fs = re.sub('([aeioⱥĭwqxː])uŭ', r'\1ŭ', fs)
+    fs = re.sub('([aeioⱥĭwqxː])u', r'\1ŭ', fs)
+    fs = re.sub('ŭj([mnpbtdkgfvt̂ψszŝĵĥhlrjcφ])', r'ŭi\1', fs)
     fs = fs.replace('ː',':')
     return fs
 
