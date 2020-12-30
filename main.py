@@ -30,6 +30,8 @@ def ipa2pol(pron):
             fs += pollist[ipalist.index(i)]
         else:
             fs += i
+    fs = fs.replace('kts','ẑ')
+    fs = fs.replace('gdz','z̆')
     fs = fs.replace('ts','c')
     fs = re.sub('h([mnbk])', r'\1̆', fs)
     fs = fs.replace('pŭ','φ')
@@ -59,6 +61,8 @@ def transfercase(s,f):
         except:
             pass
     return ' '.join(fl).replace('\u0007 ','\n')
+
+#print(eng2pol('As the school flag flies up high\nRising up towards the sky\nAll our hearts rejoice singing in one voice\nFor our spirit never dies\n\nBurning passion deep inside\nWith faith hope and foresight\nScaling greater heights\nWith one big stride\nFor NUS High we fight\n\nArise young minds, together\nThe seeds have just been planted\nIn our souls the flames ignite\nAs we show our might'))
 
 # Prompts you for English text, prints Poliespellinglish, then prompts you again.
 #'''
