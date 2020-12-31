@@ -1,5 +1,5 @@
 # Poliespⱥlĭngglĭŝ
-Poliespⱥlĭngglĭŝ (Poliespo spⱥlĭng wv Ĭngglĭŝ) ĭz xn w:ltq:nxtĭv spⱥlĭng wv Ĭngglĭŝ bejst wn [Poliespo](https://en.wikipedia.org/wiki/Poliespo) w:t̂wgrxfi. Ĭt luks tⱥrxbl, ŭĭĉ Aj kxnsĭdx tu: bi: x gxŭl xĉi:vd. Ajv trajd tu: mejk Ĭngglĭŝ w:t̂wgrxfiz bejst wn sⱥvrxl conlangs, sqĉ ⱥz [Esperanto](https://en.wikipedia.org/wiki/Poliespo) ⱥnd [Vötgil](https://www.youtube.com/watch?v=12bT6wGXESc), bqt ψĭs ĭz baj fa: ψx ŭq:st ŭqn, sxŭ ĭt ĭz maj prajwrĭti.  
+Poliespⱥlĭngglĭŝ (Poliespo spⱥlĭng wv Ĭngglĭŝ) ĭz xn w:ltq:nxtĭv spⱥlĭng wv Ĭngglĭŝ bejst wn [Poliespo](https://en.wikipedia.org/wiki/Poliespo) w:t̂wgrxfi. Ĭt luks tⱥrxbl, ŭĭĉ Aj kxnsĭdx tu: bi: x gxŭl xĉi:vd. Ajv trajd tu: mejk Ĭngglĭŝ w:t̂wgrxfiz bejst wn sⱥvrxl conlangs, sqĉ ⱥz [Esperanto](https://en.wikipedia.org/wiki/Poliespo) ⱥnd [Vatgĭl](https://www.youtube.com/watch?v=12bT6wGXESc), bqt ψĭs ĭz baj fa: ψx ŭq:st ŭqn, sxŭ ĭt ĭz maj prajwrĭti.  
   
 [X Pajt̂xn fajl (main.py)](https://github.com/ajlee2006/poliespellinglish/blob/main/main.py) tu: kwnvq:t bĭtŭi:n Ĭngglĭŝ ⱥnd Poliespⱥlĭngglĭŝ ĭz xtⱥĉt. Ĭt mejks ju:z wv ψi: [API](https://github.com/ajlee2006/tophonetics-api) fw: [tophonetics.com](https://www.tophonetics.com/) ψⱥt Aj mejd. Ju: kⱥn rqn ψx kxŭd ⱥt https://repl.it/@AJLee/poliespelling-of-english
 
