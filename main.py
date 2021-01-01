@@ -64,7 +64,7 @@ def transfercase(s,f):
 
 # Converts files
 #'''
-filename = 'lesmis'
+filename = 'hamlet'
 text = open(filename + '.txt','r').read()
 with open(filename + 'conv.txt','w') as f:
     f.write(eng2pol(text))
