@@ -62,7 +62,13 @@ def transfercase(s,f):
             pass
     return ' '.join(fl).replace('\u0007 ','\n')
 
-#print(eng2pol('As the school flag flies up high\nRising up towards the sky\nAll our hearts rejoice singing in one voice\nFor our spirit never dies\n\nBurning passion deep inside\nWith faith hope and foresight\nScaling greater heights\nWith one big stride\nFor NUS High we fight\n\nArise young minds, together\nThe seeds have just been planted\nIn our souls the flames ignite\nAs we show our might'))
+# Converts files
+#'''
+filename = 'lesmis'
+text = open(filename + '.txt','r').read()
+with open(filename + 'conv.txt','w') as f:
+    f.write(eng2pol(text))
+#'''
 
 # Prompts you for English text, prints Poliespellinglish, then prompts you again.
 #'''
