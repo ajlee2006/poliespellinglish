@@ -52,12 +52,12 @@ def transfercase(s,f):
         try:
             if sl[i].upper() == sl[i].lower():
                 pass
+            elif sl[i].islower():
+                fl[i] = fl[i].lower()
             elif sl[i] == sl[i].capitalize():
                 fl[i] = fl[i].capitalize()
             elif sl[i].isupper():
                 fl[i] = fl[i].upper()
-            elif sl[i].islower():
-                fl[i] = fl[i].lower()
         except:
             pass
     return ' '.join(fl).replace('\u0007 ','\n')
