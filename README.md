@@ -6,7 +6,7 @@ Poliespellinglish (Poliespo spelling of English) is an alternative spelling of E
 [A Python file (main.py)](https://github.com/ajlee2006/poliespellinglish/blob/main/main.py) to convert between English and Poliespellinglish is attached. It makes use of the [API](https://github.com/ajlee2006/tophonetics-api) for [tophonetics.com](https://www.tophonetics.com/) that I made. You can run the code at https://repl.it/@AJLee/poliespelling-of-english
 
 ## Making orthography Unicode-friendly
-The orthography of Poliespo is not very Unicode-friendly, especially the characters t-with-overlapping-v for /ð/ and p-with-overlapping-w for /pʷ/. Hence, I have decided to make them ψ and φ, because they look pretty similar to the originals, and are both Greek letters so many fonts will support them.  
+The orthography of Poliespo is not very Unicode-friendly, because the characters t-with-overlapping-v for /ð/ and p-with-overlapping-w for /pʷ/ just don't exist. Hence, I have decided to make them ψ and φ, because they look pretty similar to the originals, and are both Greek letters so many fonts will support them.  
   
 ![ψ and φ look like t+v and p+w](https://raw.githubusercontent.com/ajlee2006/poliespellinglish/main/images/poliespellinglish%20demonstrating%20psi-phi-updated.png)
 
